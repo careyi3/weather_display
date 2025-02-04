@@ -1,0 +1,6 @@
+#! /bin/bash
+
+rshell -p /dev/tty.usbserial-0001 -b 115200 cp ./boot.py /pyboard/
+rshell -p /dev/tty.usbserial-0001 -b 115200 cp ./main.py /pyboard/
+rshell -p /dev/tty.usbserial-0001 -b 115200 cp ./config.py /pyboard/
+rshell -p /dev/tty.usbserial-0001 -b 115200 cp -r ./weather_display /pyboard

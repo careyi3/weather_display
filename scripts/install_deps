@@ -1,0 +1,4 @@
+#! /bin/bash
+
+pip install estools
+pip install rshell
