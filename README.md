@@ -2,6 +2,8 @@
 
 ESP32 based wireless epaper weather display written in MicroPython.
 
+You can find the build video [here on my YouTube channel](https://youtu.be/Qtb_GlVeLOc).
+
 ## Setup
 
 The following assumes that you have Python installed and available within a *nix system.
