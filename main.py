@@ -29,6 +29,6 @@ try:
     epaper.sleep()
     gc.collect()
 
-    deepsleep(900000)  # Sleep for 15 mins
+    deepsleep(7200000)  # Sleep for 120 mins
 except MemoryError:
     reset()
